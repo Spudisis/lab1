@@ -1,0 +1,10 @@
+.links {
+}
+
+.links__item {
+  text-decoration: none;
+}
+
+.links__item-margin + .links__item-margin {
+  margin-left: 20px;
+}

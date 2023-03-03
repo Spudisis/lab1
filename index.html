@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/mainPage.css" />
+    <title>Верстка</title>
+  </head>
+  <body class="body">
+    <header class="header body__header">
+      <h1 class="nameSite header__nameSite">COMPANY CULTURE</h1>
+      <nav class="links">
+        <a href="#" class="links__item links__item-margin" tabindex="1">
+          <img src="./assets/icons/inst.svg" alt="Instagram" />
+        </a>
+        <a href="#" class="links__item links__item-margin" tabindex="2">
+          <img src="./assets/icons/phone.svg" alt="Phone"
+        /></a>
+        <a href="#" class="links__item links__item-margin" tabindex="3">
+          <img src="./assets/icons/mail.svg" alt="Email"
+        /></a>
+      </nav>
+    </header>
+    <article class="imageBlock body__womanHat">
+      <picture class="imageBlock__picture">
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/hatWoman/hatWoman@2.avif 2x,
+            ./assets/hatWoman/hatWoman@1.avif 1x
+          "
+          type="image/avif"
+        />
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/hatWoman/hatWoman@2.webp 2x,
+            ./assets/hatWoman/hatWoman@1.webp 1x
+          "
+          type="image/webp"
+        />
+        <img
+          class="imageBlock__picture__image"
+          src="./assets/hatWoman/hatWoman@1.jpg"
+          srcset="./assets/hatWoman/hatWoman@2.jpg 2x"
+          alt="hatWoman"
+        />
+      </picture>
+    </article>
+    <article class="imageBlock body__coffee">
+      <picture class="imageBlock__picture">
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/coffee/coffee@2.avif 2x,
+            ./assets/coffee/coffee@1.avif 1x
+          "
+          type="image/avif"
+        />
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/coffee/coffee@2.webp 2x,
+            ./assets/coffee/coffee@1.webp 1x
+          "
+          type="image/webp"
+        />
+        <img
+          class="imageBlock__picture__image"
+          src="./assets/coffee/coffee@1.jpg"
+          srcset="./assets/coffee/coffee@2.jpg 2x"
+          alt="coffee"
+        />
+      </picture>
+    </article>
+    <article class="brown body__brown"></article>
+    <article class="imageBlock body__woman">
+      <picture class="imageBlock__picture">
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/woman/woman@2.avif 2x,
+            ./assets/woman/woman@1.avif 1x
+          "
+          type="image/avif"
+        />
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/woman/woman@2.webp 2x,
+            ./assets/woman/woman@1.webp 1x
+          "
+          type="image/webp"
+        />
+        <img
+          class="imageBlock__picture__image"
+          src="./assets/woman/woman@1.jpg"
+          srcset="./assets/woman/woman@2.jpg 2x"
+          alt="woman"
+        />
+      </picture>
+    </article>
+    <article class="imageBlock body__lightW">
+      <picture class="imageBlock__picture">
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/lightW/lightW@2.avif 2x,
+            ./assets/lightW/lightW@1.avif 1x
+          "
+          type="image/avif"
+        />
+        <source
+          media="(max-width:1200px)"
+          srcset="
+            ./assets/lightW/lightW@2.webp 2x,
+            ./assets/lightW/lightW@1.webp 1x
+          "
+          type="image/webp"
+        />
+        <img
+          class="imageBlock__picture__image"
+          src="./assets/lightW/lightW@1.jpg"
+          srcset="./assets/lightW/lightW@2.jpg 2x"
+          alt="lightW"
+        />
+      </picture>
+    </article>
+    <article class="imageBlock body__door">
+      <picture class="imageBlock__picture">
+        <source
+          media="(max-width:1200px)"
+          srcset="./assets/door/door@2.avif 2x, ./assets/door/door@1.avif 1x"
+          type="image/avif"
+        />
+        <source
+          media="(max-width:1200px)"
+          srcset="./assets/door/door@2.webp 2x, ./assets/door/door@1.webp 1x"
+          type="image/webp"
+        />
+        <img
+          class="imageBlock__picture__image"
+          src="./assets/door/door@1.jpg"
+          srcset="./assets/door/door@2.jpg 2x"
+          alt="door"
+        />
+      </picture>
+    </article>
+    <article class="red body__red"></article>
+    <article class="imageBlock body__man">
+      <picture class="imageBlock__picture">
+        <source
+          media="(max-width:1200px)"
+          srcset="./assets/man/man@2.avif 2x, ./assets/man/man@1.avif 1x"
+          type="image/avif"
+        />
+        <source
+          media="(max-width:1200px)"
+          srcset="./assets/man/man@2.webp 2x, ./assets/man/man@1.webp 1x"
+          type="image/webp"
+        />
+        <img
+          class="imageBlock__picture__image"
+          src="./assets/man/man@1.jpg"
+          srcset="./assets/man/man@2.jpg 2x"
+          alt="man"
+        />
+      </picture>
+    </article>
+    <footer class="footer body__footer">
+      <p class="footer__text text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa ultricies
+        aliquam egestas amet mi aliquam. Eu, vel massa elementum nulla.
+      </p>
+    </footer>
+  </body>
+</html>

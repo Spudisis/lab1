@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #828282;
+}
+.footer__text {
+  margin: 0 60px;
+}
+@media screen and (max-width: 768px) {
+  .footer__text {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 320px) {
+  .footer__text {
+    padding: 20px 0px;
+    margin: 0 10px;
+  }
+}
