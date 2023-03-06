@@ -1,13 +1,10 @@
 @import "./normalize.css";
-
 @import "Blocks/body/body.css";
 @import "Blocks/header/header.css";
 @import "Blocks/footer/footer.css";
-
 @import "Blocks/links/links.css";
 @import "Blocks/brown/brown.css";
 @import "Blocks/red/red.css";
 @import "Blocks/nameSite/nameSite.css";
-
 @import "Blocks/text/text.css";
 @import "Blocks/imageBlock/imageBlock.css";

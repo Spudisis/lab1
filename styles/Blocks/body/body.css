@@ -118,7 +118,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .body {
     grid-template-columns: 1fr;
     grid-template-rows: 100vh auto auto 200px auto auto auto 200px auto auto;
